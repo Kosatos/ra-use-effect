@@ -1,0 +1,11 @@
+.loader {
+  display: flex;
+  width: 10%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.loader svg {
+  max-width: 40%;
+}

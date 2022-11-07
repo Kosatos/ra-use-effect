@@ -1,0 +1,11 @@
+.list {
+  @apply border-2 rounded-md w-96;
+}
+
+.list__item {
+  @apply p-4 w-full text-lg font-medium hover:bg-slate-100 transition-colors;
+}
+
+.list__item:not(:last-child) {
+  @apply border-b-2 border-gray-300;
+}

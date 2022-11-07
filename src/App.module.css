@@ -1,0 +1,11 @@
+.wrapper {
+  @apply container px-4 py-10 mx-auto;
+}
+
+.task-title {
+  @apply text-center text-4xl font-bold py-2 uppercase;
+}
+
+.use-effect {
+  @apply flex py-12;
+}
